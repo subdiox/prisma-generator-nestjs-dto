@@ -1,6 +1,6 @@
 import path from 'path';
 import {
-  camel as transformFileNameCase,
+  kebab as transformFileNameCase,
   pascal as transformClassNameCase,
 } from 'case';
 import { logger } from '@prisma/sdk';
